@@ -1,24 +1,1006 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Hugos-MacBook-Air.local" id="0" name="new book entry" package="" tests="1" time="5.862" timestamp="2015-09-04T16:37:50">
+  <testsuite errors="3" failures="0" hostname="ess-VirtualBox" id="0" name="Atleta" package="" tests="6" time="95.465" timestamp="2015-11-24T20:09:48">
       <properties />
 
-      <testcase classname="grails.plugin.cucumber.CucumberTest" name="new book" time="5.377" />
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Adicionar atleta novo" time="2.673" />
 
-      <system-out><![CDATA[Feature: new book entry
-  As a book owner
-  I want to add books I own to the book tracker
-  so that I do not have to remember them by myself
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Adicionar Atleta novo web" time="45.153">
+          <error message="failed to create driver from callback &apos;script1448395792664700847480$_run_closure1@762a92f0&apos;" type="geb.driver.DriverCreationException">geb.driver.DriverCreationException: failed to create driver from callback &apos;script1448395792664700847480$_run_closure1@762a92f0&apos;
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure9.doCall(AtletaSteps.groovy:49)
+	at ✽.Given estou no menu de Atleta(Atleta.feature:27)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be &gt;= 43.0.2357.0
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38.60 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;ess-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-33-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:161)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:107)
+	at script1448395792664700847480$_run_closure1.doCall(script1448395792664700847480.groovy:9)
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure9.doCall(AtletaSteps.groovy:49)
+	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+</error>
 
---Output from new book--
-  Scenario: new book                               # NewBook.feature:6
-    Given I open the book tracker                  # Book_Steps.groovy:5
-    When I add "Specification by Example"          # Book_Steps.groovy:10
-    Then I see "Specification by Example"s details # Book_Steps.groovy:14
+      </testcase>
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Editar cpf Atleta" time="1.549" />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Editar atleta e deixar campos obrigatorios em branco" time="0.564" />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Editar Atleta web sucesso" time="34.902">
+          <error message="failed to create driver from callback &apos;script1448395840084700847480$_run_closure1@50fe1f9c&apos;" type="geb.driver.DriverCreationException">geb.driver.DriverCreationException: failed to create driver from callback &apos;script1448395840084700847480$_run_closure1@50fe1f9c&apos;
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+	at ✽.Given estou na pagina de editar atletas(Atleta.feature:55)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be &gt;= 43.0.2357.0
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33.96 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;ess-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-33-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:161)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:107)
+	at script1448395840084700847480$_run_closure1.doCall(script1448395840084700847480.groovy:9)
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+</error>
+
+      </testcase>
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Edicao falha de dados do atleta" time="9.168">
+          <error message="failed to create driver from callback &apos;script1448395874982700847480$_run_closure1@729d9b8c&apos;" type="geb.driver.DriverCreationException">geb.driver.DriverCreationException: failed to create driver from callback &apos;script1448395874982700847480$_run_closure1@729d9b8c&apos;
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+	at ✽.Given estou na pagina de editar atletas(Atleta.feature:62)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be &gt;= 43.0.2357.0
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.10 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;ess-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-33-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:161)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:107)
+	at script1448395874982700847480$_run_closure1.doCall(script1448395874982700847480.groovy:9)
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[Feature: Atleta
+  As a usuario cadastrado no sistema
+  I want adicionar e editar atletas
+  So that eu possa gerenciar as informacoes dos atletas
+
+--Output from Adicionar atleta novo--
+--Output from Adicionar Atleta novo web--
+  Scenario: Adicionar atleta novo                                                  # Atleta.feature:6
+    Given o sistema nao tem o atleta com o CPF "09719992836"                       # AtletaSteps.groovy:13
+    When eu adiciono o atleta com o CPF "09719992836"                              # AtletaSteps.groovy:17
+    Then o atleta com o CPF "09719992836" esta devidamente armazenado pelo sistema # AtletaSteps.groovy:21
+
+--Output from Editar cpf Atleta--
+  Scenario: Adicionar Atleta novo web                                                                                                                                                                                           # Atleta.feature:26
+    Given estou no menu de Atleta                                                                                                                                                                                               # AtletaSteps.groovy:48
+      geb.driver.DriverCreationException: failed to create driver from callback 'script1448395792664700847480$_run_closure1@762a92f0'
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure9.doCall(AtletaSteps.groovy:49)
+      	at ✽.Given estou no menu de Atleta(Atleta.feature:27)
+      Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be >= 43.0.2357.0
+        (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 38.60 seconds
+      Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+      System info: host: 'ess-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-33-generic', java.version: '1.7.0_75'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+      	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+      	at script1448395792664700847480$_run_closure1.doCall(script1448395792664700847480.groovy:9)
+      	at script1448395792664700847480$_run_closure1.doCall(script1448395792664700847480.groovy)
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure9.doCall(AtletaSteps.groovy:49)
+      	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+      	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+      	at cucumber.runtime.model.CucumberFeature$run$0.call(Unknown Source)
+      	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+      	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+      	at grails.plugin.cucumber.Cucumber$run$1.call(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+      	at grails.plugin.cucumber.CucumberTestType.this$3$runFeatures(CucumberTestType.groovy)
+      	at grails.plugin.cucumber.CucumberTestType$this$3$runFeatures$3.callCurrent(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+      	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+      	at gant.Gant.withBuildListeners(Gant.groovy:427)
+      	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+      	at gant.Gant$this$2$withBuildListeners$0.callCurrent(Unknown Source)
+      	at gant.Gant.dispatch(Gant.groovy:415)
+      	at gant.Gant.this$2$dispatch(Gant.groovy)
+      	at gant.Gant.invokeMethod(Gant.groovy)
+      	at gant.Gant.executeTargets(Gant.groovy:591)
+      	at gant.Gant.executeTargets(Gant.groovy:590)
+      	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+
+    And o atleta nao aparece na lista de atletas cadastrados                                                                                                                                                                    # AtletaSteps.groovy:52
+    When eu seleciono a opcao New Atleta                                                                                                                                                                                        # AtletaSteps.groovy:56
+    And eu preencho os dados do atleta com nome "Gabriel", email "ghdr@cin.ufpe.br", telefone "99878798", CPF "08976898765", RG "8765667", altura "1,75", peso "70", posicao "atacante", categoria "sub 17" e alojamento "true" # AtletaSteps.groovy:61
+    And eu seleciono a opcao Create                                                                                                                                                                                             # AtletaSteps.groovy:66
+    Then poderei ver os detalhes do atleta salvo no sistema                                                                                                                                                                     # AtletaSteps.groovy:70
+
+--Output from Editar atleta e deixar campos obrigatorios em branco--
+  Scenario: Editar cpf Atleta                                                             # Atleta.feature:43
+    Given o sistema possui um atleta com cpf "08976898765"                                # AtletaSteps.groovy:75
+    When eu edito o cpf para "08976898763"                                                # AtletaSteps.groovy:80
+    Then O sistema deve armazenar o atleta com a nova informacao de cpf no banco de dados # AtletaSteps.groovy:85
+
+--Output from Editar Atleta web sucesso--
+  Scenario: Editar atleta e deixar campos obrigatorios em branco # Atleta.feature:48
+    Given o sistema possui um atleta com cpf "08976898765"       # AtletaSteps.groovy:75
+    When eu nao preencho o campo cpf                             # AtletaSteps.groovy:92
+    And confirmo minhas mudancas                                 # AtletaSteps.groovy:96
+    Then O sistema nao devera armazenar as mudancas              # AtletaSteps.groovy:100
+
+--Output from Edicao falha de dados do atleta--
+  Scenario: Editar Atleta web sucesso                                                 # Atleta.feature:54
+    Given estou na pagina de editar atletas                                           # AtletaSteps.groovy:26
+      geb.driver.DriverCreationException: failed to create driver from callback 'script1448395840084700847480$_run_closure1@50fe1f9c'
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+      	at ✽.Given estou na pagina de editar atletas(Atleta.feature:55)
+      Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be >= 43.0.2357.0
+        (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 33.96 seconds
+      Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+      System info: host: 'ess-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-33-generic', java.version: '1.7.0_75'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+      	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+      	at script1448395840084700847480$_run_closure1.doCall(script1448395840084700847480.groovy:9)
+      	at script1448395840084700847480$_run_closure1.doCall(script1448395840084700847480.groovy)
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+      	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+      	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+      	at cucumber.runtime.model.CucumberFeature$run$0.call(Unknown Source)
+      	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+      	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+      	at grails.plugin.cucumber.Cucumber$run$1.call(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+      	at grails.plugin.cucumber.CucumberTestType.this$3$runFeatures(CucumberTestType.groovy)
+      	at grails.plugin.cucumber.CucumberTestType$this$3$runFeatures$3.callCurrent(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+      	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+      	at gant.Gant.withBuildListeners(Gant.groovy:427)
+      	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+      	at gant.Gant$this$2$withBuildListeners$0.callCurrent(Unknown Source)
+      	at gant.Gant.dispatch(Gant.groovy:415)
+      	at gant.Gant.this$2$dispatch(Gant.groovy)
+      	at gant.Gant.invokeMethod(Gant.groovy)
+      	at gant.Gant.executeTargets(Gant.groovy:591)
+      	at gant.Gant.executeTargets(Gant.groovy:590)
+      	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+
+    When eu preencho o campo de cpf com "11281727373"                                 # AtletaSteps.groovy:30
+    And eu preencho os campos requeridos corretamente                                 # AtletaSteps.groovy:33
+    And envio minhas mudancas                                                         # AtletaSteps.groovy:36
+    Then eu devo ver uma mensagem indicando que as mudancas foram salvas corretamente # AtletaSteps.groovy:39
+
+  Scenario: Edicao falha de dados do atleta                       # Atleta.feature:61
+    Given estou na pagina de editar atletas                       # AtletaSteps.groovy:26
+      geb.driver.DriverCreationException: failed to create driver from callback 'script1448395874982700847480$_run_closure1@729d9b8c'
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+      	at ✽.Given estou na pagina de editar atletas(Atleta.feature:62)
+      Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be >= 43.0.2357.0
+        (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 8.10 seconds
+      Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+      System info: host: 'ess-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-33-generic', java.version: '1.7.0_75'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+      	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+      	at script1448395874982700847480$_run_closure1.doCall(script1448395874982700847480.groovy:9)
+      	at script1448395874982700847480$_run_closure1.doCall(script1448395874982700847480.groovy)
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.AtletaSteps$_run_closure4.doCall(AtletaSteps.groovy:27)
+      	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+      	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+      	at cucumber.runtime.model.CucumberFeature$run$0.call(Unknown Source)
+      	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+      	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+      	at grails.plugin.cucumber.Cucumber$run$1.call(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+      	at grails.plugin.cucumber.CucumberTestType.this$3$runFeatures(CucumberTestType.groovy)
+      	at grails.plugin.cucumber.CucumberTestType$this$3$runFeatures$3.callCurrent(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+      	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+      	at gant.Gant.withBuildListeners(Gant.groovy:427)
+      	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+      	at gant.Gant$this$2$withBuildListeners$0.callCurrent(Unknown Source)
+      	at gant.Gant.dispatch(Gant.groovy:415)
+      	at gant.Gant.this$2$dispatch(Gant.groovy)
+      	at gant.Gant.invokeMethod(Gant.groovy)
+      	at gant.Gant.executeTargets(Gant.groovy:591)
+      	at gant.Gant.executeTargets(Gant.groovy:590)
+      	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+
+    When eu preencho o campo de cpf com ""                        # AtletaSteps.groovy:30
+    And eu preencho os campos requeridos corretamente             # AtletaSteps.groovy:33
+    And envio minhas mudancas                                     # AtletaSteps.groovy:36
+    Then eu devo ver uma mensagem indicando que um erro aconteceu # AtletaSteps.groovy:105
 ]]></system-out>
 
       <system-err><![CDATA[
---Output from new book--]]></system-err>
+--Output from Adicionar atleta novo--
+--Output from Adicionar Atleta novo web--
+--Output from Editar cpf Atleta--
+--Output from Editar atleta e deixar campos obrigatorios em branco--
+--Output from Editar Atleta web sucesso--
+--Output from Edicao falha de dados do atleta--]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ess-VirtualBox" id="1" name="Contrato" package="" tests="2" time="7.411" timestamp="2015-11-24T20:11:24">
+      <properties />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="adicionar novo contrato" time="0.695" />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="adicionar novo contrato web" time="6.063">
+          <error message="failed to create driver from callback &apos;script1448395885877700847480$_run_closure1@658c2477&apos;" type="geb.driver.DriverCreationException">geb.driver.DriverCreationException: failed to create driver from callback &apos;script1448395885877700847480$_run_closure1@658c2477&apos;
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.ContratoSteps$_run_closure4.doCall(ContratoSteps.groovy:39)
+	at ✽.Given eu estou na pagina de Contrato(Contrato.feature:13)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be &gt;= 43.0.2357.0
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.24 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;ess-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-33-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:161)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:107)
+	at script1448395885877700847480$_run_closure1.doCall(script1448395885877700847480.groovy:9)
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at steps.ContratoSteps$_run_closure4.doCall(ContratoSteps.groovy:39)
+	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[Feature: Contrato
+  As a usuario do sistema
+  I want adicionar e cancelar contrato
+  So that eu posso gerenciar os contratos dos atletas de um clube
+
+--Output from adicionar novo contrato--
+--Output from adicionar novo contrato web--
+  Scenario: adicionar novo contrato                                                                                                                   # Contrato.feature:7
+    Given nao existe o contrato com contratante "Nautico" e o contratado "Gabriel" com data de inicio "21/01/2015" e data de termino "21/01/2016"     # ContratoSteps.groovy:11
+    When eu crio um novo contrato com o contratante "Nautico" e o contratado "Gabriel" com data de inicio "21/01/2015" e data de termino "21/01/2016" # ContratoSteps.groovy:20
+    Then o contrato sera salvo no sistema                                                                                                             # ContratoSteps.groovy:30
+
+  Scenario: adicionar novo contrato web                                                                                                             # Contrato.feature:12
+    Given eu estou na pagina de Contrato                                                                                                            # ContratoSteps.groovy:38
+      geb.driver.DriverCreationException: failed to create driver from callback 'script1448395885877700847480$_run_closure1@658c2477'
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.ContratoSteps$_run_closure4.doCall(ContratoSteps.groovy:39)
+      	at ✽.Given eu estou na pagina de Contrato(Contrato.feature:13)
+      Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be >= 43.0.2357.0
+        (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 5.24 seconds
+      Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+      System info: host: 'ess-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-33-generic', java.version: '1.7.0_75'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+      	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+      	at script1448395885877700847480$_run_closure1.doCall(script1448395885877700847480.groovy:9)
+      	at script1448395885877700847480$_run_closure1.doCall(script1448395885877700847480.groovy)
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at steps.ContratoSteps$_run_closure4.doCall(ContratoSteps.groovy:39)
+      	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+      	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+      	at cucumber.runtime.model.CucumberFeature$run$0.call(Unknown Source)
+      	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+      	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+      	at grails.plugin.cucumber.Cucumber$run$1.call(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+      	at grails.plugin.cucumber.CucumberTestType.this$3$runFeatures(CucumberTestType.groovy)
+      	at grails.plugin.cucumber.CucumberTestType$this$3$runFeatures$3.callCurrent(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+      	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+      	at gant.Gant.withBuildListeners(Gant.groovy:427)
+      	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+      	at gant.Gant$this$2$withBuildListeners$0.callCurrent(Unknown Source)
+      	at gant.Gant.dispatch(Gant.groovy:415)
+      	at gant.Gant.this$2$dispatch(Gant.groovy)
+      	at gant.Gant.invokeMethod(Gant.groovy)
+      	at gant.Gant.executeTargets(Gant.groovy:591)
+      	at gant.Gant.executeTargets(Gant.groovy:590)
+      	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+
+    And eu visualizo a lista de todos os contratos                                                                                                  # ContratoSteps.groovy:43
+    When eu seleciono a opção New Contrato                                                                                                          # ContratoSteps.groovy:48
+    And preencho os detalhes com contratante "Nautico",contratado "Arthur", data de início "19/10/2015" ,data de termino "19/10/2016", valor "1200" # ContratoSteps.groovy:53
+    And eu seleciono a opção Create                                                                                                                 # ContratoSteps.groovy:61
+    Then poderei ver os detalhes do contrato salvos no sistema                                                                                      # ContratoSteps.groovy:64
+]]></system-out>
+
+      <system-err><![CDATA[
+--Output from adicionar novo contrato--
+--Output from adicionar novo contrato web--]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ess-VirtualBox" id="2" name="User" package="" tests="2" time="9.964" timestamp="2015-11-24T20:11:32">
+      <properties />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Tentando logar usando credenciais erradas web" time="8.511">
+          <error message="failed to create driver from callback &apos;script1448395892175700847480$_run_closure1@f7aa83e&apos;" type="geb.driver.DriverCreationException">geb.driver.DriverCreationException: failed to create driver from callback &apos;script1448395892175700847480$_run_closure1@f7aa83e&apos;
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at UserSteps$_run_closure1.doCall(UserSteps.groovy:11)
+	at ✽.Given estou na pagina de login(User.feature:14)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be &gt;= 43.0.2357.0
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.75 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;ess-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-33-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:161)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:107)
+	at script1448395892175700847480$_run_closure1.doCall(script1448395892175700847480.groovy:9)
+	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Page.to(Page.groovy:184)
+	at geb.Browser.via(Browser.groovy:475)
+	at geb.Browser.to(Browser.groovy:434)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+	at UserSteps$_run_closure1.doCall(UserSteps.groovy:11)
+	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+</error>
+
+      </testcase>
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Tentando logar usando nome de usuário errado" time="0.614" />
+
+      <system-out><![CDATA[Feature: User
+  
+  As a membro de um grupo de atletas
+  I want acessar o sistema de gerenciamento de atletas
+  So that eu posso usar todas as funcionalidades
+
+--Output from Tentando logar usando credenciais erradas web--
+--Output from Tentando logar usando nome de usuário errado--
+  #	Scenario: Tentando logar usando credenciais corretas web
+  #		Given estou na pagina de login
+  #		And eu preencho o campo de login e senha com "admin" e "senha123" respectivamente
+  #		When eu seleciono a opcao "entrar"
+  #		Then eu serei redirecionado para a pagina inicial
+  Scenario: Tentando logar usando credenciais erradas web                                                  # User.feature:13
+    Given estou na pagina de login                                                                         # UserSteps.groovy:10
+      geb.driver.DriverCreationException: failed to create driver from callback 'script1448395892175700847480$_run_closure1@f7aa83e'
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:35)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at UserSteps$_run_closure1.doCall(UserSteps.groovy:11)
+      	at ✽.Given estou na pagina de login(User.feature:14)
+      Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome version must be >= 43.0.2357.0
+        (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.16.0-33-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 7.75 seconds
+      Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+      System info: host: 'ess-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-33-generic', java.version: '1.7.0_75'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+      	at org.openqa.selenium.chrome.ChromeDriver.startSession(ChromeDriver.java:182)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
+      	at script1448395892175700847480$_run_closure1.doCall(script1448395892175700847480.groovy:9)
+      	at script1448395892175700847480$_run_closure1.doCall(script1448395892175700847480.groovy)
+      	at geb.driver.CallbackDriverFactory.getDriver(CallbackDriverFactory.groovy:29)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy:80)
+      	at geb.driver.CachingDriverFactory$_getDriver_closure3.doCall(CachingDriverFactory.groovy)
+      	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+      	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+      	at geb.Configuration.createDriver(Configuration.groovy:354)
+      	at geb.Configuration.getDriver(Configuration.groovy:343)
+      	at geb.Browser.getDriver(Browser.groovy:105)
+      	at geb.Browser.go(Browser.groovy:394)
+      	at geb.Browser$go$3.call(Unknown Source)
+      	at geb.Page.to(Page.groovy:184)
+      	at geb.Browser.via(Browser.groovy:475)
+      	at geb.Browser$via$2.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:434)
+      	at geb.Browser$to$1.callCurrent(Unknown Source)
+      	at geb.Browser.to(Browser.groovy:412)
+      	at geb.binding.BindingUpdater$InvocationForwarding.doCall(BindingUpdater.groovy:72)
+      	at UserSteps$_run_closure1.doCall(UserSteps.groovy:11)
+      	at cucumber.runtime.groovy.GroovyBackend.invoke(GroovyBackend.java:155)
+      	at cucumber.runtime.groovy.GroovyStepDefinition$1.call(GroovyStepDefinition.java:71)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.groovy.GroovyStepDefinition.execute(GroovyStepDefinition.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+      	at cucumber.runtime.model.CucumberFeature$run$0.call(Unknown Source)
+      	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:59)
+      	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:58)
+      	at grails.plugin.cucumber.Cucumber$run$1.call(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:148)
+      	at grails.plugin.cucumber.CucumberTestType.this$3$runFeatures(CucumberTestType.groovy)
+      	at grails.plugin.cucumber.CucumberTestType$this$3$runFeatures$3.callCurrent(Unknown Source)
+      	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:58)
+      	at _GrailsTest$_run_closure1.doCall(_GrailsTest.groovy:102)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+      	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+      	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+      	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+      	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+      	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+      	at gant.Gant.withBuildListeners(Gant.groovy:427)
+      	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+      	at gant.Gant$this$2$withBuildListeners$0.callCurrent(Unknown Source)
+      	at gant.Gant.dispatch(Gant.groovy:415)
+      	at gant.Gant.this$2$dispatch(Gant.groovy)
+      	at gant.Gant.invokeMethod(Gant.groovy)
+      	at gant.Gant.executeTargets(Gant.groovy:591)
+      	at gant.Gant.executeTargets(Gant.groovy:590)
+      	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+
+    When eu aperto entrar apos preencher o campo de login e senha com "adnin" e "senha123" respectivamente # UserSteps.groovy:15
+    Then eu permaneco na pagina de login                                                                   # UserSteps.groovy:20
+
+  #
+  #	Scenario: Tentando logar usando credenciais corretas
+  #		Given que o login "admin" esta cadastrado no sistema
+  #		When eu tento acessar o sistema com o login "admin" e senha "senha123"
+  #		Then eu consigo acessar o gerenciador de atleta
+  Scenario: Tentando logar usando nome de usuário errado                   # User.feature:24
+    Given que o login "adnin" nao esta cadastrado no sistema               # UserSteps.groovy:25
+    When eu tento acessar o sistema com o login "adnin" e senha "senha123" # UserSteps.groovy:30
+    Then eu nao consigo acessar o gerenciador de atletas                   # UserSteps.groovy:34
+]]></system-out>
+
+      <system-err><![CDATA[
+--Output from Tentando logar usando credenciais erradas web--
+--Output from Tentando logar usando nome de usuário errado--]]></system-err>
 
   </testsuite>
 </testsuites>
