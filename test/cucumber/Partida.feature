@@ -34,7 +34,7 @@ Feature: Partida
     When eu preencho o numero de jogadores titulares da partida com ""
     And preencho o restante dos campos requeridos corretamente
     And envio minhas modificacoes
-    Then uma mensagem de erro e visualizada no topo da página
+    Then uma mensagem de erro e visualizada no topo da pagina
   @ignore
   Scenario: Registrar Modificacao de Numero de Jogadores
 

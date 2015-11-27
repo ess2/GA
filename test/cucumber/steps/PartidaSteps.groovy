@@ -2,6 +2,7 @@ package steps
 
 import static cucumber.api.groovy.EN.*
 import ga.Partida
+import pages.*
 
 this.metaClass.mixin(cucumber.api.groovy.Hooks)
 this.metaClass.mixin(cucumber.api.groovy.EN)
@@ -29,3 +30,27 @@ Then(~'^eu salvo a data "([^"]*)" e o nome "([^"]*)" que fez as modificacoes no 
 
 }
 
+//&&&&&FALHA WEB
+
+Given(~'^que eu estou na pagina de modificar partidas$') {
+    to PartidaModPage
+    at PartidaModPage
+}
+
+When(~'^eu preencho o numero de jogadores titulares da partida com "([^"]*)"$') { String tit ->
+    page.fillnumCampoField(tit)
+}
+
+When(~'^preencho o restante dos campos requeridos corretamente$') {
+    page.fillOtherFields()
+}
+
+When(~'^envio minhas modificacoes$') {->
+    page.submitChanges()
+}
+
+Then(~'^uma mensagem de erro e visualizada no topo da pagina$') { ->
+    at PartidaModPage
+    def errorBoolean = page.hasInvalidMessage()
+    assert errorBoolean != false
+}
