@@ -18,7 +18,6 @@ stacktrace.log
 /target-eclipse/
 web-app/WEB-INF/tld/c.tld
 web-app/WEB-INF/tld/fmt.tld
-target/**/*
 
 # IDE support files
 /.classpath
@@ -36,8 +35,7 @@ target/**/*
 .idea/workspace.xml
 .idea/misc.xml
 .idea/gradle_settings2_config.xml
-.idea/**/*
-GA.iml
+
 # Gradle files
 .gradle/*
 /build/

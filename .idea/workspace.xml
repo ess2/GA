@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcb73e3-e6b7-4f87-b266-c996b97a960c" name="Default" comment="">
+    <list default="true" id="2ee9c426-8a1d-47aa-a5d1-7d6d97b793b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GA-grailsPlugins.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/taglib/StepDef.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/TEST-functional-cucumber-new book entry.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/html/0_new book entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-cucumber-new book entry-err.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-cucumber-new book entry-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-cucumber-new book entry.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
@@ -107,6 +114,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
@@ -157,24 +165,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon-retina.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon-retina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/database_add.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/database_delete.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/database_edit.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/database_save.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_save.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/database_table.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_table.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/exclamation.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/exclamation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/favicon.ico" afterPath="$PROJECT_DIR$/grails-app/assets/images/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/grails_logo.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/grails_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/house.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/house.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/information.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/information.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chromedrivers/chromedriverlinux64" afterPath="$PROJECT_DIR$/chromedrivers/chromedriverlinux64" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/shadow.jpg" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/shadow.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_asc.gif" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_asc.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_desc.gif" afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_desc.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/spinner.gif" afterPath="$PROJECT_DIR$/grails-app/assets/images/spinner.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/images/springsource.png" afterPath="$PROJECT_DIR$/grails-app/assets/images/springsource.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/AuthorListWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/AuthorListWriter.groovy" />
@@ -217,11 +209,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmUpdateSql.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmUpdateSql.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmValidate.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmValidate.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GA.iml" afterPath="$PROJECT_DIR$/GA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/GebConfig.groovy" afterPath="$PROJECT_DIR$/test/functional/GebConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLListWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLListWriter.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/HTMLWriter.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/LICENSE.txt" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/LICENSE.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cucumber/Partida.feature" afterPath="$PROJECT_DIR$/test/cucumber/Partida.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ga/Partida.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ga/Partida.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.groovy" />
@@ -235,36 +230,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/views/dbdoc/_overview-summary.gsp" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/views/dbdoc/_overview-summary.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/views/dbdoc/_stylesheet.gsp" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/views/dbdoc/_stylesheet.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/all.html" afterPath="$PROJECT_DIR$/target/test-reports/html/all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cucumber/support/env.groovy" afterPath="$PROJECT_DIR$/test/cucumber/support/env.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/grails-app/views/error.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/errors.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/errors.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/failed.html" afterPath="$PROJECT_DIR$/target/test-reports/html/failed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/index.html" afterPath="$PROJECT_DIR$/target/test-reports/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_cs_CZ.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_cs_CZ.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_nb.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_nb.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pl.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pl.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_sv.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_sv.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_cs_CZ.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_cs_CZ.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_da.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_da.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_de.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_de.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_es.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_fr.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_fr.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_it.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_it.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_ja.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_ja.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_nb.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_nb.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_nl.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_nl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_pl.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_pl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_pt_BR.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_pt_BR.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_pt_PT.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_pt_PT.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_ru.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_sv.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_sv.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_th.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GA/messages_zh_CN.properties" afterPath="$PROJECT_DIR$/out/production/GA/messages_zh_CN.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/mobile.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
@@ -273,6 +263,7 @@
     </list>
     <ignored path="GA.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -295,14 +286,31 @@
       <file leaf-file-name="Partida.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/Partida.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5242537">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.2662722">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartidaSteps.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cucumber/steps/PartidaSteps.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -315,8 +323,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test/cucumber/NewBook.feature" />
+        <option value="$PROJECT_DIR$/test/cucumber/ListBooks.feature" />
+        <option value="$PROJECT_DIR$/test/cucumber/Book_Steps.groovy" />
+        <option value="$PROJECT_DIR$/test/cucumber/support/env.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/Book.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/BookController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/book/BookController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/book/Book.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/pages/ListPage.java" />
+        <option value="$PROJECT_DIR$/test/functional/pages/ListPage.groovy" />
+        <option value="$PROJECT_DIR$/test/cucumber/steps/Book_Steps.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/pages/book/ListPage.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/chromedrivers/Readme.md" />
+        <option value="$PROJECT_DIR$/test/cucumber/steps/PartidaSteps.java" />
+        <option value="$PROJECT_DIR$/test/functional/GebConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/ga/Partida.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/ga/PartidaController.groovy" />
         <option value="$PROJECT_DIR$/test/cucumber/steps/PartidaSteps.groovy" />
         <option value="$PROJECT_DIR$/test/cucumber/Partida.feature" />
+        <option value="$PROJECT_DIR$/test/functional/steps/PartidaTestDataAndOperations.groovy" />
       </list>
     </option>
   </component>
@@ -340,7 +367,7 @@
     <option name="width" value="1297" />
     <option name="height" value="639" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -363,6 +390,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -409,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
+              <option name="myItemId" value="cucumber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,54 +459,51 @@
               <option name="myItemId" value="cucumber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chromedrivers" />
+              <option name="myItemId" value="steps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GerenciadoAtleta/GA" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/functional/pages" />
+      <recent name="$PROJECT_DIR$/test/functional/pages/book" />
+      <recent name="$PROJECT_DIR$/test/cucumber" />
+      <recent name="$PROJECT_DIR$/test/functional" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test/functional" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="steps" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Run Tests">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -528,10 +554,10 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -587,7 +613,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -610,7 +636,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
         </LauncherParameters>
       </option>
       <option name="moduleName" value="" />
@@ -634,22 +660,13 @@
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
+      <module name="GA" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -672,11 +689,11 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
@@ -723,19 +740,13 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -747,7 +758,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Grails:GA" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="false" name="Run" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="GA" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -768,9 +779,13 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:GA" />
+      <item index="0" class="java.lang.String" itemvalue="Grails.Run" />
       <item index="1" class="java.lang.String" itemvalue="Grails.Run Tests" />
     </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -778,56 +793,74 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7bcb73e3-e6b7-4f87-b266-c996b97a960c" name="Default" comment="" />
-      <created>1448394559396</created>
+      <changelist id="2ee9c426-8a1d-47aa-a5d1-7d6d97b793b3" name="Default" comment="" />
+      <created>1441287292193</created>
       <option name="number" value="Default" />
-      <updated>1448394559396</updated>
-      <workItem from="1448394561525" duration="220000" />
-      <workItem from="1448394863715" duration="1028000" />
-      <workItem from="1448640327231" duration="744000" />
-      <workItem from="1448641200096" duration="317000" />
+      <updated>1441287292193</updated>
+      <workItem from="1441287294130" duration="516000" />
+      <workItem from="1441287999660" duration="1234000" />
+      <workItem from="1441289467446" duration="421000" />
+      <workItem from="1441291104363" duration="2550000" />
+      <workItem from="1441380556121" duration="284000" />
+      <workItem from="1441380910468" duration="962000" />
+      <workItem from="1441382040192" duration="2490000" />
+      <workItem from="1441385300926" duration="7000" />
+      <workItem from="1445355892394" duration="1946000" />
+      <workItem from="1445359676504" duration="7690000" />
+      <workItem from="1445419862993" duration="219000" />
+      <workItem from="1448395088380" duration="816000" />
+      <workItem from="1448640801432" duration="289000" />
+      <workItem from="1448641208035" duration="469000" />
+      <workItem from="1448643424526" duration="269000" />
+      <workItem from="1448646086618" duration="1276000" />
+      <workItem from="1448647602679" duration="39000" />
+      <workItem from="1448647712557" duration="156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2309000" />
+    <option name="totallyTimeSpent" value="21633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="24" width="1297" height="639" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34982333" sideWeight="0.48111024" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34982333" sideWeight="0.5188897" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685512" sideWeight="0.47648418" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -841,7 +874,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cucumber/steps/PartidaSteps.groovy</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -849,18 +892,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/cucumber/Partida.feature">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/steps/PartidaSteps.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/Partida.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5242537">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.2662722">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -892,95 +935,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>GA:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Hibernate</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>grails-2.1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GA</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

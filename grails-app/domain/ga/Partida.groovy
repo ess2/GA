@@ -5,23 +5,27 @@ class Partida {
     String numero
     String placar
     String situacao
-    String njogcampo
-    String njogreserva
-    String lastAdminModification
-
-    Date lastUpdated
-
-    def beforeUpdate = {
-        lastUpdated = new Date()
-    }
+    String numCampo //string referente ao numero de jogadores em campo
+    String numReserva //string referente ao numero de jogadores reservas
+    String lastAdminModification //ultima pessoa que fez modificação na partida
+    String lastUpdateModification //ultima data que a partida foi modificada
 
     static constraints = {
-        numero(nullable: false, blank: false)
-        placar(nullable: false, blank: false)
-        situacao(nullable: false, blank: false)
-        njogcampo(nullable: false, blank: false)
-        njogreserva(nullable: false, blank: false)
-        lastAdminModification(nullable: false, blank: false)
+        numero null : false
+        placar null : false
+        situacao null : false
+        numCampo null : false
+        numReserva null : false
+        lastAdminModification null : false
+        lastUpdateModification null : false
+
+    }
+
+    void setAdminModification(String adm){
+        this.lastAdminModification = adm
+    }
+    void setDateModification(String date) {
+        this.lastUpdateModification = date
 
     }
 }
