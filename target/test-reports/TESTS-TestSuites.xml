@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="ess-VirtualBox" id="0" name="Partida" package="" tests="1" time="4.211" timestamp="2015-11-27T18:10:36">
+  <testsuite errors="1" failures="0" hostname="ess-VirtualBox" id="0" name="Partida" package="" tests="1" time="5.043" timestamp="2015-11-27T18:22:12">
       <properties />
 
-      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Registrar Modificacao de Placar" time="2.774" />
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Registrar Modificacao de Placar" time="2.711">
+          <error message="No such property: data for class: cucumber.runtime.groovy.GroovyWorld" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como &quot;Augusto Souza&quot; na data &quot;10/10/2015&quot;(Partida.feature:10)
+</error>
+
+      </testcase>
 
       <system-out><![CDATA[Feature: Partida
   
@@ -15,8 +23,14 @@
   Scenario: Registrar Modificacao de Placar                                                       # Partida.feature:7
     Given que eu tenha a partida "1" salva no sistema e placar "1 x 0"                            # PartidaSteps.groovy:9
     And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"     # PartidaSteps.groovy:16
-    When eu modifico o placar da partida de numero "1" de "1 x 0" para "2 x 0"                    # PartidaSteps.groovy:20
-    Then eu salvo a data "10/10/2015" e o nome "Augusto Souza" que fez as modificacoes no sistema # PartidaSteps.groovy:24
+      groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+      	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+      	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+      	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+      	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+
+    When eu modifico o placar da partida de numero "1" de "1 x 0" para "2 x 0"                    # PartidaSteps.groovy:21
+    Then eu salvo a data "10/10/2015" e o nome "Augusto Souza" que fez as modificacoes no sistema # PartidaSteps.groovy:25
 ]]></system-out>
 
       <system-err><![CDATA[

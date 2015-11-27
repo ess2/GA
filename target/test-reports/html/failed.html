@@ -16,7 +16,9 @@
 <p class="intro">
                         A single test executed
                     
-                        without a single error or failure!
+                        with
+                        one error
+                        .
                     </p>
 </div>
 <div class="grid_2 omega">
@@ -39,6 +41,70 @@
 </nav>
 </div>
 <div class="clear"></div>
+<div class="testsuite error">
+<div class="header">
+<h2>Partida</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one error
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Registrar Modificacao de Placar">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">Registrar Modificacao de Placar</b>
+</p>
+<p class="summary">Executed in 2.711 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">No such property: data for class: cucumber.runtime.groovy.GroovyWorld</b>
+</p>
+<pre>groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">Feature: Partida
+  
+  As a membro administrador do Grupo de Atletas
+  I want to adicionar e modificar partidas do Sistema de Gerenciamento de Atletas
+  So that eu posso adicionar novas partidas e modificar seus jogadores, situacoes e placares
+
+--Output from Registrar Modificacao de Placar--
+  Scenario: Registrar Modificacao de Placar                                                       # Partida.feature:7
+    Given que eu tenha a partida "1" salva no sistema e placar "1 x 0"                            # PartidaSteps.groovy:9
+    And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"     # PartidaSteps.groovy:16
+      groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+      	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+      	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+      	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+      	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+
+    When eu modifico o placar da partida de numero "1" de "1 x 0" para "2 x 0"                    # PartidaSteps.groovy:21
+    Then eu salvo a data "10/10/2015" e o nome "Augusto Souza" que fez as modificacoes no sistema # PartidaSteps.groovy:25
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">
+--Output from Registrar Modificacao de Placar--</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
 <div class="clear"></div>
 </div>
 <!--

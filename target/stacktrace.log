@@ -3175,3 +3175,27 @@ assert Partida.findByLastAdminModification(admin) != null
 
 	at steps.PartidaSteps$_run_closure4.doCall(PartidaSteps.groovy:26)
 	at ✽.Then eu salvo a data "10/10/2015" e o nome "Augusto Souza" que fez as modificacoes no sistema(Partida.feature:12)
+2015-11-27 15:22:17,238 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+2015-11-27 15:22:17,365 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+2015-11-27 15:22:17,384 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)
+2015-11-27 15:22:17,385 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: data for class: cucumber.runtime.groovy.GroovyWorld
+	at cucumber.runtime.groovy.GroovyWorld.findWorldWithProperty(GroovyWorld.java:47)
+	at cucumber.runtime.groovy.GroovyWorld.getProperty(GroovyWorld.java:30)
+	at steps.PartidaSteps$_run_closure2.doCall(PartidaSteps.groovy:18)
+	at ✽.And estou modificando as informacoes da partida como "Augusto Souza" na data "10/10/2015"(Partida.feature:10)

@@ -14,7 +14,8 @@ Given(~'^que eu tenha a partida "([^"]*)" salva no sistema e placar "([^"]*)"$')
 }
 
 Given(~'^estou modificando as informacoes da partida como "([^"]*)" na data "([^"]*)"$') { String admin, date ->
-    PartidaTestDataAndOperations.createModification(partida, admin, date)
+    pessoa = admin
+    data = date
 }
 
 When(~'^eu modifico o placar da partida de numero "([^"]*)" de "([^"]*)" para "([^"]*)"$') { String numero, placarCurrent, placarNew ->
@@ -22,7 +23,9 @@ When(~'^eu modifico o placar da partida de numero "([^"]*)" de "([^"]*)" para "(
 
 }
 Then(~'^eu salvo a data "([^"]*)" e o nome "([^"]*)" que fez as modificacoes no sistema$') { String date, admin ->
+    PartidaTestDataAndOperations.createModification(partida, pessoa, data)
     assert Partida.findByLastUpdateModification(date) != null
     assert Partida.findByLastAdminModification(admin) != null
 
 }
+

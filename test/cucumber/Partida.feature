@@ -27,13 +27,13 @@ Feature: Partida
     When eu seleciono a situacao da partida "4" de "Em andamento" para "Completa"
     And eu seleciono "salvar"
     Then uma mensagem de sucesso e exibida na tela
-  @ignore
-  Scenario: Numero de Jogadores Titulares insuficientes para partida GUI
 
-    Given que eu estou na pagina de partidas
-    And eu seleciono a opcao "modificar" para partida de numero "6"
-    And eu tenha selecionado o numero de jogadores titulares da partida de numero "6" de "11" para "10"
-    When eu seleciono "salvar"
+  Scenario: Numero de Jogadores Titulares obrigatorios para partida
+
+    Given que eu estou na pagina de modificar partidas
+    When eu preencho o numero de jogadores titulares da partida com ""
+    And preencho o restante dos campos requeridos corretamente
+    And envio minhas modificacoes
     Then uma mensagem de erro e visualizada no topo da página
   @ignore
   Scenario: Registrar Modificacao de Numero de Jogadores
